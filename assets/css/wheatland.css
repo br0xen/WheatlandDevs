@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #FFF;
+}
+
+input[type=text],
+input[type=password] {
+	margin: 0;
+}

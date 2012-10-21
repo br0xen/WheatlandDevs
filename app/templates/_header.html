@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>{{ page_title }}</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<meta http-equiv="Content-Script-Type" content="text/javascript">
+		<meta name="keywords" content="Programmer,Resume,Android Development,Java,Web Development,HTML,JavaScript,CSS">
+		<meta name="description" content="MrBuller, Programmer">
+<!--		<link rel="apple-touch-icon" href="/assets/img/" type="image/png"> -->
+<!--		<link rel="shortcut icon" href="/assets/img/" type="image/png"> -->
+		{% for css_file in css %}
+		<link href="{{ css_file }}" rel="stylesheet" type="text/css">
+		{% endfor %}
+	</head>
+	<body>
+		<div class="navbar">
+			<div class="navbar-inner">
+				<a class="brand" href="#">{{ page_title }}</a>
+				<ul class="nav">
+				</ul>
+			</div>
+		</div>
